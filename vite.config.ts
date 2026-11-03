@@ -4,6 +4,7 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  base: '/SMART-DIV/',
   return {
     plugins: [react(), tailwindcss()],
     resolve: {
